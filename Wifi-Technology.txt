@@ -1,0 +1,54 @@
+What is Wi-Fi?
+WiFi is a wireless technology that allows electronic devices to connect to the internet and communicate with each other without a physical cable. This uses radio waves to transmit the data between a WiFi router and compatible devices like smartphones, computers, and smart home gadgets. These WiFi networks are common in homes, offices, and public spaces providing convenient internet access and local connectivity. This technology has become an essential part of modern digital life enabling wireless internet browsing, file sharing, and device communication in various settings.
+What is a Wireless Access Point?
+The WAP means a wireless access point is the networking device that allows WiFi-enabled devices to connect to the wired network. It acts as the central hub broadcasting the Wi-Fi signal that devices can detect and join. Access points are commonly used to extend the range of existing networks, create separate network segments, or provide Wi-Fi connectivity in large spaces like offices, schools or public areas. They can be standalone devices or integrated into a router and they enable multiple devices to access network resources and the internet wirelessly within their coverage area.
+Applications of Wi-Fi
+* Using Wi-Fi we can access the internet in any Wi-Fi-capable device wirelessly. We can stream or cast audio or video wirelessly on any device using Wi-Fi for our entertainment.
+* We can share files, data, etc between two or more computers or mobile phones using Wi-Fi, and the speed of the data transfer rate is also very high. Also, we can print any document using a Wi-Fi printer, this is very much used nowadays.
+* We can use Wi-Fi as HOTSPOTS also, it points Wireless Internet access for a particular range of area. Using Hotspot the owner of the main network connection can offer temporary network access to Wi-Fi-capable devices so that the users can use the network without knowing anything about the main network connection. Wi-Fi adapters are mainly spreading radio signals using the owner network connection to provide a hotspot.
+* Using Wi-Fi or WLAN we can construct simple wireless connections from one point to another, known as Point to point networks. This can be useful to connect two locations that are difficult to reach by wire, such as two buildings of corporate business.
+* One more important application is VoWi-Fi, which is known as voice-over Wi-Fi. Some years ago telecom companies are introduced VoLTE (Voice over Long-Term Evolution ). Nowadays they are introduced to VoWi-Fi, by which we can call anyone by using our home Wi-Fi network, only one thing is that the mobile needs to connect with the Wi-Fi. Then the voice is transferred using the Wi-Fi network instead of using the mobile SIM network, so the call quality is very good. Many mobile phones are already getting the support of VoWi-Fi.
+* In an office, all the computers are interconnected using Wi-Fi. For Wi-Fi, there are no wiring complexities. Also, the speed of the network is good. For Wi-Fi, a project can be presented to all the members at a time in the form of an excel sheet, ppt, etc. For Wi-Fi, there is no network loss as in cable due to cable break.
+* Also using W-Fi a whole city can provide network connectivity by deploying routers at a specific area to access the internet. Already schools, colleges, and universities are providing networks using Wi-Fi because of its flexibility. Wi-Fi is used as a positioning system also, by which we can detect the positions of Wi-Fi hotspots to identify a device location.
+Types of Wi-Fi
+StandardsYear of ReleaseDescriptionWi-Fi-1 (802.11b)1999This version has a link speed from 2Mb/s to 11 Mb/s over a 2.4 GHz frequency bandWi-Fi-2 (802.11a)1999After a month of release previous version, 802.11a was released and it provide up to 54 Mb/s link speed over 5 Ghz bandWi-Fi-3 (802.11g)2003In this version the speed was increased up to 54 to 108 Mb/s over 2.4 GHz802.11i2004This is the same as 802.11g but only the security mechanism was increased in this version802.11e2004This is also the same as 802.11g, only Voice over Wireless LAN and multimedia streaming are involvedWi-Fi-4 (802.11n)2009This version supports both 2.4 GHz and 5 GHz radio frequency and it offers up to 72 to 600 Mb/s speedWi-Fi-5 (802.11ac)2014It supports a speed of 1733 Mb/s in the 5 GHz bandTypes of Wi-Fi Connections
+LAN (Local Area Network)
+A LAN operates within a limited area like an office building or home, connecting various devices such as computers, printers, and storage devices. It uses components like switches, routers, and cables, with Wi-Fi being the most common wireless form of LAN. Think of it as a network that serves a single location.
+PAN (Personal Area Network)
+A PAN is the smallest network type, centered around one person’s devices in a specific location, typically connecting personal gadgets like phones, computers, and gaming consoles. Bluetooth is the most well-known wireless PAN technology. These networks are perfect for personal use in homes or small offices.
+Learn more
+MAN (Metropolitan Area Network)
+A MAN covers a larger geographical area than a LAN, typically spanning across a city, college campus, or business complex. It’s designed to connect multiple locations within a metropolitan area, making it ideal for organizations that need to manage systems across several buildings or facilities.
+WAN (Wide Area Network)
+A WAN is the largest network type, covering vast geographical areas like cities, countries, or even the entire globe – the Internet being the most famous example. It can encompass multiple smaller networks like LAN and MAN, and cellular networks are the most common type of wireless WAN.
+How does a Wi-Fi work?
+Wi-Fi is a wireless technology for networking, so it uses Electromagnetic waves to transmit networks. We know that there are many divisions of Electromagnetic waves according to their frequency such as X-ray, Gamma-ray, radio wave, microwave, etc, in Wi-Fi, the radio frequency is used. For transmitting Wi-Fi signal there is three medium, 
+* Base Station Network or an Ethernet(802.3) Connection: It is the main host network from where the network connection is provided to the router.
+* Access Point or Router: it is a bridge between a wired network and a wireless network. It accepts a wired Ethernet connection and converts the wired connection to a wireless connection and spreads the connection as a radio wave.
+* Accessing Devices: It is our mobile, computer, etc from where we use the Wi-Fi and surfing internet.
+
+Working of Wi-Fi
+All the electronics devices read data in binary form, also router or our devices, here routers provide radio waves and those waves are receive by our devices and read the waves in binary form. We know how a wave looks like a upper pick of the wave is known as a 1 and the lower pick of the wave is known as the 0 in a binary as mentioned below :
+* SSID (Service Set Identifier): This 32 character name that identifies the Wi-Fi network and differentiates the one Wi-Fi from a another Wi-Fi. All the devices are attempting to connect a particular SSID. A SSID is the name of a wireless network.
+* WPA-PSK (Wi-Fi Protected Access- Pre-Shared Key): The program developed by Wi-Fi Alliance Authority to secure a wireless networks with a use of a Pre Shared Key authentication. The WPA has a 3 types such as WPA, WPA2 and a WPA3. It is a way of encrypting a Wi-Fi signal to protect from a unwanted users.
+* Wi-Fi uses Ad-Hoc networks to transmit. It is a point-to-point network without any interface.
+
+Data transmission
+How to Get Wi-Fi at Home?
+Step 1: Choose a Reliable ISP
+Research and compare major Internet Service Providers in your area like Jio Fiber, Airtel Xstream, BSNL Broadband, or ACT Fibernet. Check the available plans, speed options, and customer reviews for these providers in your locality. Visit their websites or local offices to verify coverage at your address and select a plan that suits your needs.
+Step 2: Get the Right Equipment
+Most Indian ISPs provide their own Wi-Fi router or ONT (Optical Network Terminal) as part of the connection package. If you’re getting a fiber connection from providers like Jio or Airtel, they’ll typically provide an ONT/modem and router combo device. For non-fiber connections, you may need a separate router, which your ISP can provide or you can purchase from brands like TP-Link or D-Link.
+Step 3: Optimal Router Placement
+Place your router in a central, elevated location in your home, away from metal objects, thick walls, and electronic devices. Avoid keeping it in closed spaces like cupboards or behind furniture for better signal strength. For multi-story homes, consider placing it on the middle floor for optimal coverage.
+Step 4: Installation and Support
+Most Indian ISP include free installation with their broadband plans, and a technician will visit your home to set up the connection. The technician will handle cable laying, router installation, and initial configuration of your Wi-Fi network. For post-installation support, you can contact your ISP’s customer care (like Jio at 198, Airtel at 198, or BSNL at 1800-345-1500).
+Advantages of Wi-Fi
+* The Wi-Fi allows easy cable-free connection to the internet from multiple devices. Users can access the network from anywhere within a range enhancing mobility and flexibility.
+* The Wi-Fi networks eliminate the need for extensive cabling, reducing installation and maintenance costs. It is particularly beneficial for the businesses and a large spaces.
+* The Wi-Fi networks can be easily expanded to a accommodate more devices. Adding new devices does not require the additional infrastructure making it more scalable for the growing needs.
+Disadvantages of Wi-Fi
+* The WiFi networks are vulnerable to a hacking and unauthorized accesses if not secured. This can lead to the data breaches and a privacy concerns for all the users.
+* The Wi-Fi signals can be affected by the physical obstacles and a interference from other devices. This can result in a slower speeds or dropped connections especially at a greater distances from the router.
+* The Wi-Fi routers require a electricity to function. During the power outages the network becomes inaccessible potentially disrupting the important communications or work.
+

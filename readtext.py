@@ -1,5 +1,6 @@
 import os
 import time
+import chardet
 
 def install(package):
     os.system(f"python -m pip install {package}")
@@ -16,7 +17,7 @@ except ImportError:
 engine = pyttsx3.init()
 
 # Set properties (optional)
-engine.setProperty('rate', 150)  # Speed of speech
+engine.setProperty('rate', 160)  # Speed of speech
 engine.setProperty('volume', 1.0)  # Volume level (0.0 to 1.0)
 
 # Function to calculate progress percentage
@@ -64,20 +65,49 @@ def speak_with_pauses(text, bookmark_file="bookmark.txt"):
                     # Calculate and display progress
                     progress = calculate_progress(processed_length, total_length)
                     print(f"Progress: {progress:.2f}% ")
-                    time.sleep(0.3)  # Pause after a comma
+                    time.sleep(0.001)  # Pause after a comma
             processed_length += 1  # +1 for the period
-            time.sleep(0.5)  # Pause after a period
+            time.sleep(0.1)  # Pause after a period
         else:
             processed_length += 1  # +1 for empty sentences (e.g., multiple periods)
-            time.sleep(0.5)  # Pause for empty sentences
+            time.sleep(0.01)  # Pause for empty sentences
 
         # Save the current position to the bookmark file
         save_bookmark(processed_length, bookmark_file)
 
 # Example text
-text = """
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-"""
+# text = """
+# Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+# """
+
+
+# Read the text from a file
+file_road = r"Wifi-Technology.txt"
+
+# #using chardet to detect the encoding of the file
+# with open(file_road, "rb") as file:
+#     raw_data = file.read()
+#     result = chardet.detect(raw_data)
+#     encoding = result["encoding"]
+#     print(encoding)
+
+
+# # Read the text from a file with character encoding
+# with open(file_road, 'r', encoding=encoding) as reading_file:
+#     text = reading_file.read()
+
+
+#using menual loop for finding the encoding
+encodings = ["utf-8", "latin-1", "windows-1252", "ANSI"]
+
+for encoding in encodings:
+    try:
+        with open(file_road, "r", encoding=encoding) as file:
+            text = file.read()
+        print(f"Successfully read the file with {encoding} encoding.")
+        break
+    except UnicodeDecodeError:
+        print(f"Failed to read the file with {encoding} encoding.")
 
 # Speak the text with pauses, progress, and bookmarking
 speak_with_pauses(text)
